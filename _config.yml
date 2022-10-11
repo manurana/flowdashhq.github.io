@@ -31,6 +31,9 @@ github_username:  flowdashhq
 # Build settings
 remote_theme: just-the-docs/just-the-docs
 
+whitelist:
+  - jekyll-redirect-from
+
 #
 # Theme Settings
 #

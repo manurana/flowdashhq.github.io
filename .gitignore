@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Ignore IDEs
+.idea
+.vscode/
+
+# Mac Metadata
+.DS_Store

@@ -29,7 +29,7 @@ twitter_username: flowdashhq
 github_username:  flowdashhq
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 # Exclude from processing.
 # The following items will not be processed, by default.

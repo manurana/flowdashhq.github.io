@@ -1,12 +1,7 @@
 ---
-title: "Quickstart"
-permalink: /docs/quickstart
-excerpt: "Flowdash overview in 5 minutes"
-hidden: false
-metadata: 
-  description: "Get up and running in Flowdash in just 5 minutes."
-createdAt: "2021-01-21T22:44:52.539Z"
-updatedAt: "2021-12-17T04:23:05.171Z"
+title: Quickstart
+permalink: /docs/getting-started/quickstart
+parent: Getting Started
 nav_order: 1
 ---
 Flowdash was designed to make it fast and easy to build task management software tailored to your unique business needs. The goal of this tutorial is to give you a quick overview of how Flowdash works. In this example, imagine we're a company launching a new product soon and have multiple users who requested early access. We'll create a simple workflow for manually reviewing those users, and automatically send an email to those who are approved.

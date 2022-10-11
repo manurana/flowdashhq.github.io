@@ -11,5 +11,6 @@ The **Flow Builder** can be accessed from the top navigation:
 
 {: .info-title }
 > Permissions
-> 
-> Note that only workflow administrators can access the **Flow Builder**. The Flow Builder icon will not be visible to non-admins.
+>
+> Note that only workflow administrators can access the **Flow Builder**. The Flow Builder icon will not be visible to 
+> non-admins.

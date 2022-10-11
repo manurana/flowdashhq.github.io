@@ -1,0 +1,43 @@
+---
+title: Files API
+permalink: /docs/api/files-api
+nav_order: 6
+parent: API Reference
+---
+## GET File by ID
+
+To fetch a file in your workflow, issue a GET request to the files endpoint, specifying the blob ID:
+
+```
+https://app.flowdash.com/api/v1/files/<blob_id>
+```
+
+For example, consider we fetched a task object with the following shape
+
+```json
+{
+    "Stage": "In Progress",
+    "Assigned To": null,
+    "Task URL": "https://app.flowdash.com/workflows/2ylSaZ/tasks/ooCwnZ",
+    "Company ID": "42",
+    "Company Name": "Acme Corp",
+    "Number of Employees": "10",
+    "Contract Value": "10000.00",
+    "Expected Close Date": "2020-01-31",
+    "International?": false,
+    "Receipt": [{
+        "blobId": "123abc",
+        "filename": "company_outing_receipt.png",
+        "contentType": "image/png"
+    }]   
+}
+```
+
+Let's download that file locally with the following command
+```
+curl https://app.flowdash.com/api/v1/files/123abc \
+    --header 'Authorization: Bearer YOUR_API_KEY' \
+    --output local_receipt_copy.png
+```
+
+The contents of the file should be saved in `local_receipt_copy.png`

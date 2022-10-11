@@ -3,6 +3,8 @@ title: Connecting to a database
 permalink: /docs/data-sync/connecting-to-a-database
 parent: Data Sync
 nav_order: 0
+redirect_from:
+- /docs/connecting-to-a-database
 ---
 Click on your profile photo in the navigation menu and click into "Workspace Settings" from the dropdown menu. If you do
 not have access to your workspace settings, ask your workspace administrator for help.

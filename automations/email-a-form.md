@@ -3,6 +3,8 @@ title: Email a Form
 permalink: /docs/automations/email-a-form
 parent: Automations
 nav_order: 1
+redirect_from:
+- /docs/updating-tasks-with-forms
 ---
 Asking for information has gotten easier! You can email a request to anybody for information and their response will be
 saved into your task. These forms can only be used to update a task once.

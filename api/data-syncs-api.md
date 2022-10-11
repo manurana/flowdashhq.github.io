@@ -3,6 +3,8 @@ title: Data Syncs API
 permalink: /docs/api/data-syncs-api
 nav_order: 4
 parent: API Reference
+redirect_from:
+- /docs/data-syncs-api
 ---
 ## POST Trigger a Data Sync
 

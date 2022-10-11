@@ -29,9 +29,7 @@ twitter_username: flowdashhq
 github_username:  flowdashhq
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: just-the-docs/just-the-docs
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -24,15 +24,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Documentation to help you get started with Flowdash and the API.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: flowdashhq.github.io
-url: https://flowdashhq.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://flowdashhq.github.io/docs # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: flowdashhq
 github_username:  flowdashhq
 
 # Build settings
 theme: just-the-docs
 
+#
+# Theme Settings
+#
+
+# Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/flowdash-logo.png"
 
+callouts:
+  warning:
+    title: Warning
+    color: red
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -23,8 +23,8 @@ email: hello@flowdash.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation to help you get started with Flowdash and the API.
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: flowdashhq.github.io
-url: https://flowdashhq.github.io # the base hostname & protocol for your site, e.g. http://example.com
+#domain: flowdashhq.github.io
+#url: https://flowdashhq.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: flowdashhq
 github_username:  flowdashhq
 
